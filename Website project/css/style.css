@@ -3,10 +3,11 @@ html,
 body {
   margin: 0;
   padding: 0;
-  cursor: pointer;
+  
 }
 body {
   height: 1600px;
+  overflow-x: hidden;
 }
 
 header {
@@ -199,7 +200,7 @@ header nav ul li a:hover {
 }
 
 .intro-block:hover {
-  background: #ff4848;
+  background: #4888ff;
   color: white;
 }
 
@@ -297,4 +298,8 @@ header nav ul li a:hover {
   background: rgba(0, 0, 0, 0.555);
   border-radius: 20px;
   height: 70%;
+}
+
+.row a:hover {
+  text-decoration: none;
 }
